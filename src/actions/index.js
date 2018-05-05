@@ -20,3 +20,10 @@ export const toggleTodo = (id) => {
     id
   }
 }
+
+export const addTask = (task) => {
+  return {
+    type: 'ADD_TASK',
+    task: task
+  }
+}
